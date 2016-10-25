@@ -42,7 +42,7 @@ public class SortMethod {
 		for(int i=1; i<list.length;i++){
 			int current = list[i];
 			int k;
-			for(k = i-1; k>=0 && current < list[k]; i--){
+			for(k = i-1; k>=0 && current < list[k]; k--){
 				list[k+1] = list[k];
 			}
 			list[k+1] = current;
